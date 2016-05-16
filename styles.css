@@ -1,0 +1,29 @@
+#container{
+	width: 600px;
+    display: inline-block;
+    position: relative;
+}
+
+#speedo{
+	display: inline-block;
+}
+
+#needle{
+	display: inline-block;
+    position: absolute;
+    top: 65px;
+    left: 190px;
+    height: 295px;
+}
+
+#bkg{
+	display: inline-block;
+    position: absolute;
+    top: 65px;
+    left: 72px;
+    background-color: red;
+    width: 300px;
+    opacity: .2;
+    border-radius: 500px;
+    height: 300px;
+}
